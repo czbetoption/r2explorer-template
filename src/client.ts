@@ -726,9 +726,11 @@ export class Czbet {
   store: API.Store = new API.Store(this);
   user: API.UserResource = new API.UserResource(this);
 }
+
 Czbet.PetResource = PetResource;
 Czbet.Store = Store;
 Czbet.UserResource = UserResource;
+
 export declare namespace Czbet {
   export type RequestOptions = Opts.RequestOptions;
 
